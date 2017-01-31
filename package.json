@@ -1,8 +1,15 @@
 {
-    "name": "application-name"
-  , "version": "0.0.1"
-  , "private": true
-  , "dependencies": {
+    "name": "stackexpress-sample-app",
+    "version": "0.0.1",
+    "repository": {
+    "type" : "git",
+    "url" : "https://github.com/kushalkumar101/testing.git"
+    },
+    "license": "Apache-2.0",
+    "engines": {
+    "node": "4.5.x"
+    },
+    "dependencies": {
       "express": "*"
   }
 }
